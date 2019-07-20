@@ -1,8 +1,8 @@
 # Trabalho de desenvolvimento web
 
-História e contribuição para a internet de Vinton Gray Cerf.
+Conceito de surf e suas curiosidades.
 
-Equipe: Enolla Bressanim, Hannely Maske, Jackson Riebe, Mab Fraga e Natália Coelho.
+Equipe: Enolla Bressanim, Jackson Riebe e Natália Coelho.
 
 IFC Campus Blumenau.
 
