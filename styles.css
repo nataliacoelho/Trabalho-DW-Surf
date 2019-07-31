@@ -3,6 +3,10 @@ html, body, h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+* {
+  border: 0;
+}
+
 section, article, aside, header, footer, nav, dialog, figure, #blc_assist {
   display: block;
 }
@@ -39,6 +43,9 @@ h2, h3, h4 {
   color: #65ccb4d1;
 }
 
+hr {
+  border-bottom: 1px solid #484848;
+}
 
 p {
   margin-bottom: 10px;
@@ -58,13 +65,12 @@ header {
   padding: 15px;
 }
 
-
 header .titulo h1 {
   margin-bottom: 0;
 }
 
 .menu {
-  background-color: #65ccb4d1;
+  background-color: #82e0d8;
   margin-top: 100px;
 }
 
@@ -85,7 +91,7 @@ header .titulo h1 {
 }
 
 .menu ul li a:hover, .menu ul li a.active {
-  background-color: #e3fdff45;
+  background-color: rgba(227, 253, 255, 0.28)
 }
 
 .intent {
@@ -105,13 +111,14 @@ table {
 }
 
 th {
-  background-color: #91e4cd7d;
+  background-color: rgba(145, 228, 205, 0.50);
+  padding: 5px;
 }
 
 td {
-  background-color: #8fe2f540;
+  background-color: rgba(143, 226, 245, 0.25);
+  padding: 5px;
 }
-
 
 mark {
   background-color: #f9f9f9;
@@ -120,6 +127,7 @@ mark {
 footer {
   margin-top: 40px;
 }
+
 footer h5 {
   text-align: center;
   font-weight: normal;
@@ -130,38 +138,79 @@ footer h5 {
 }
 
 .container img {
-    max-width: 300px;
-    max-height:450px;
-    border-radius: 30px;
+  max-width: 300px;
+  max-height: 450px;
+  border-radius: 30px;
 }
+
 .container {
-    clear: both;
-    margin-top: 5px;
+  clear: both;
+  margin-top: 5px;
 }
 
-#mar:link { 
-  background-color: #F0F0F0F0;
-} 
-
-#mar:visited { 
-  color: brown;
-} 
-
-#mar:hover { 
+#mar:link {
+  background-color: #f0f0f0;
+  color: #2196f3;
   font-weight: bold;
-} 
+  padding:2px;
+}
 
-#mar:active { 
+#mar:visited {
+  color: #009688;
+}
+
+#mar:hover {
+  background-color: #d5eaec;
+  color: #4e4e4e;
+}
+
+#mar:active {
   color: pink;
-} 
+}
 
-#citacao { 
-  width: 500px; 
-  border: 1px solid; 
+#citacao {
+  width: 500px;
+  border: 1px solid;
   border-image: black;
   padding: 10px;
 }
 
-.fonte:focus{
+.fonte:focus {
   color: gray;
+}
+
+.surf-itens li:first-child {
+  font-size: 18px;
+}
+
+p:only-child {
+  background-color: #edf6fb !important;
+  margin-bottom: 0;
+  padding: 8px;
+}
+.overflow {
+  overflow: auto;
+  height: 250px;
+}
+
+form fieldset {
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+
+form button {
+    padding: 8px 12px;
+    background-color: #b0e3ea;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+form button:hover {
+  background-color: #33acbd;
+  color: #fff;
+  cursor: pointer;
 }
